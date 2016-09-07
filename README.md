@@ -7,7 +7,7 @@ Intended to be called from zabbix as a user-parameter.
 
 usage:
 ```shell
-> redis-zabbix.py -h my.redis.server -p 6379
+> redis-zabbix.py -h my.redis.server -P 6379
 my.redis.server redis.pubsub_patterns 0
 my.redis.server redis.connected_slaves 0
 my.redis.server redis.uptime_in_days 0
